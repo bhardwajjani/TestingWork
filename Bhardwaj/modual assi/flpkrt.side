@@ -1,0 +1,127 @@
+{
+  "id": "2badea6e-efd8-4f30-96ff-2583845fa5e9",
+  "version": "2.0",
+  "name": "flpkrt",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "f9062922-e9b2-4279-a1ef-2007c0efe598",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8e0d52b1-c088-4fec-8455-7ca1c6e3a2e7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2e05229-63f6-4b7c-a4cf-ba794de2aa55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05e149d5-5a68-4d0d-9dff-8530cb092297",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dcc0a90-45a2-4fbd-b6f2-20aeda353737",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Appliances",
+      "targets": [
+        ["linkText=Appliances", "linkText"],
+        ["css=.\\_1ch8e_:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_fd40e899-a649-44b2-9c86-9eb53ad879a7_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX')]", "xpath:href"],
+        ["xpath=//div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Appliances')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "964603cd-7782-441c-bb7f-b0215fd71475",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7443e68c-237f-4ba8-a439-19939df13f37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1jKL3b",
+      "targets": [
+        ["css=.\\_1jKL3b", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/div/header/div[2]/div[2]/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/login?ret=/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1aa23cf-5ad2-4e7a-b64c-67db2367c9e6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_2IX_2-",
+      "targets": [
+        ["css=.\\_2IX_2-", "css:finder"],
+        ["xpath=//input[@value='bhardwaj2411@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "bhardwaj2411@gmail.com"
+    }, {
+      "id": "4a1629ad-dd11-4b87-9f5e-b3f8442e5f08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2KpZ6l",
+      "targets": [
+        ["css=.\\_2KpZ6l", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Request OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16b54abf-6dd5-46f7-8eca-2868255c39a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3AWRsL > span",
+      "targets": [
+        ["css=.\\_3AWRsL > span", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[4]/div/div[2]/div/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CONTINUE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f705fc6-a18c-4bb9-8dcf-225f3ddfd980",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Flights",
+      "targets": [
+        ["linkText=Flights", "linkText"],
+        ["css=.\\_2I9KP_:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Flights')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/travel/flights?otracker=nmenu_Flights')]", "xpath:href"],
+        ["xpath=//body/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "01033990-a7d3-4ddb-bb54-c6af66376628",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f9062922-e9b2-4279-a1ef-2007c0efe598"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
